@@ -1,0 +1,21 @@
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        int a=s.nextInt();
+        int b=s.nextInt();
+        int c=s.nextInt();
+        System.out.println("TSUNAMI REPORT OF JAPAN");
+        System.out.println("The number of people");
+        System.out.printf("1)Dead:%d",a);
+        System.out.printf("\n2)Injured:%d",b);
+        System.out.println("\n3)Safe:"+c);
+        System.out.printf("Please help the people who are suffering!!!");
+    }
+}
