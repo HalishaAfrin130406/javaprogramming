@@ -1,12 +1,12 @@
 import java.util.*;
 
-public class Main {
+public class Solution {
 
     public static void main(String[] args) {
-       int a=4;
-       float b=5.678f;
+     Scanner s=new Scanner(System.in);
+        int a=s.nextInt();
+        float b=s.nextFloat();
         System.out.println(a);
-         System.out.printf("%.2f",b);
-        
+        System.out.printf("%.2f",b);
     }
 }
