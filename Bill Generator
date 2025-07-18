@@ -1,0 +1,17 @@
+import java.util.*;
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        int piz=s.nextInt();
+        int puf=s.nextInt();
+        int cd=s.nextInt();
+        int prize=(piz*100)+(puf*20)+(cd*10);
+        System.out.println("Bill Details");
+        System.out.println("No of pizzas:"+piz);
+        System.out.println("No of puffs:"+puf);
+        System.out.println("No of cooldrinks:"+cd);
+        System.out.println("Total price="+prize);
+        System.out.println("ENJOY THE SHOW!!!");
+    }
+}
