@@ -1,0 +1,22 @@
+import java.util.*;
+public class Solution {
+
+    public static void main(String[] args) {
+       Scanner s=new Scanner(System.in);
+        int a=s.nextInt();
+        int b=s.nextInt();
+        int c=s.nextInt();
+        switch(b)
+        {
+            case 1:
+                System.out.println(a+c);
+            break;
+            case 2:
+                if(b==2 && a>c) System.out.println(a-c);
+                else System.out.println("Insufficient Balance");
+            break;
+            default:
+                System.out.println("Invalid Input");
+        } 
+    }
+}
