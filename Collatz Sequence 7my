@@ -1,0 +1,23 @@
+import java.util.*;
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        int num=s.nextInt();
+        System.out.printf("Enter a number\n%d\n",num);
+        int n=num;
+        for(int i=num;i>=1;i--){
+            if(num%2!=0 && num>1){
+                num=(3*num)+1;
+                System.out.println(num);
+            }
+            else {
+                num=num/2;
+                System.out.println(num);
+            }  
+        }System.out.printf("count:%d\n",n);
+        if(num==1){
+           System.out.println("count:0"); 
+        }
+    }
+}
