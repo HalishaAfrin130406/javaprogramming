@@ -1,0 +1,20 @@
+import java.util.*;
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        int num=s.nextInt();
+        System.out.printf("Enter a number\n%d\n",num);
+        int n=0;
+        while(num!=1){
+            if(num%2!=0 && num>1){
+                num=(3*num)+1;
+            }
+            else {
+                num=num/2;
+            }  System.out.printf("%d\n",num);
+            n++;
+        }
+           System.out.printf("count:%d",n); 
+    }
+}
