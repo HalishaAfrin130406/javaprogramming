@@ -1,0 +1,21 @@
+import java.util.*;
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        int a=s.nextInt();
+        int post=0;
+        int negt=0;
+        for(int i=0;i<a;i++){
+            int n=s.nextInt();
+            if(n>=0 && n<=100000){
+                post++;
+            }
+            else if(n<0){
+                negt++;
+            }
+        }
+        System.out.printf("Count of Positive Integer is %.2f\n",(float)post);    
+        System.out.printf("Count of Negative Integer is %.2f",(float)negt);    
+    }
+}
